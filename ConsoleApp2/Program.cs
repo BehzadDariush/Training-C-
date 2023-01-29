@@ -26,7 +26,7 @@ do
             mystudent.StudentCode = Console.ReadLine().ToString();
             Console.Write("inter student first name : ");
             mystudent.FirstName = Console.ReadLine();
-            Console.Write("inter studentlast name : ");
+            Console.Write("inter student last name : ");
             mystudent.LastName = Console.ReadLine();
             students.Add(new Student() { FirstName = mystudent.FirstName, LastName = mystudent.LastName, StudentCode = mystudent.StudentCode });
 
